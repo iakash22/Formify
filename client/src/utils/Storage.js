@@ -1,0 +1,1 @@
+export const mode = localStorage.getItem('mode') ? JSON.parse(localStorage.getItem('mode')) : 'light';
